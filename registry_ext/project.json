@@ -1,1 +1,19 @@
-{"guid":"registry_ext","repository":{"type":"git","branch":"master","url":"https://github.com/dirigiblelabs/registry_ext.git"}}
+{
+    "guid": "registry_ext",
+    "repository": {
+        "type": "git",
+        "branch": "master",
+        "url": "https://github.com/dirigiblelabs/registry_ext.git"
+    },
+    "dependencies": [{
+        "guid":"registry_ext_cmis_explorer",
+        "type": "git",
+        "url": "https://github.com/dirigiblelabs/registry_ext_cmis_explorer.git",
+        "branch":"master"
+    }, {
+        "guid":"registry_ext_swagger_ui",
+        "type": "git",
+        "url": "https://github.com/dirigiblelabs/registry_ext_swagger_ui.git",
+        "branch":"master"
+    }]
+}
